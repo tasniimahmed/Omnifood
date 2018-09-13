@@ -1,0 +1,340 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+    color:white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding-top: 0px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.904) ,
+    rgba(12, 12, 2, 0.651)), url(bk.jpg);
+    background-size: cover;
+    height: 80vh;
+    background-attachment: fixed;
+}
+.text-box{
+    padding-top: 150px;
+}
+h1{
+    word-spacing: 4px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size:240%;
+}
+.btn:link,
+.btn:visited,
+input[type="submit"]
+{
+    display:inline-block;
+    margin-top: 10px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    text-decoration: none;
+    border-radius: 20px;
+    color:rgba(0, 0, 0, 0.767);
+    transition: backgroud-color 0.25s, color 0.25s, border,0.25s;
+}
+.btn-h:link,
+.btn-h:visited,input[type="submit"]{
+       background-color: rgba(10, 90, 10, 0.829);
+}
+.btn-s:link,
+.btn-s:visited{
+    background-color: rgba(138, 128, 118, 0.726);
+}
+.btn:hover,
+.btn:active,input[type="submit"]:hover,input[type="submit"]:active{
+    background-color: rgba(165, 162, 160, 0.021);
+    border-color: rgba(10, 53, 10, 0.829);
+    color:green;
+}
+.logo{
+    height:100px;
+    width:auto;
+    float:left;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding-top: 0;
+    border-radius: 50%;
+}
+.main-nav li{
+    margin-left: 50px;
+    display:inline-block;
+    margin-top: 50px;
+}
+.main-nav li a:link,
+.main-nav li a:visited{
+    text-decoration: none;
+    color:white;
+    margin-top: 30px;
+    transition: border-bottom 0.25s;
+}
+.main-nav li a:hover,
+.main-nav li a:active{
+    color: rgba(165, 211, 165, 0.829);
+    border-bottom-color: rgba(165, 211, 165, 0.829);
+    border-bottom: 2px solid;
+}
+.section-features{
+    margin-left: 50px;
+    margin-right:50px;
+}
+td{
+    padding-top: 20px;
+    padding-right: 20px;
+}
+h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    text-align: center;
+    color:gray;
+}
+h2:after{
+    background-color: rgba(10, 90, 10, 0.829);
+    display:block;
+    content: " ";
+    width:100px;
+    height: 2px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+p{
+    line-height: 130%;
+    color: gray;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+h3{
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    text-align: center;
+    color:gray;
+}
+
+.icon{
+    display:block;
+    color: rgba(10, 53, 10, 0.829);
+    font-size: 300%;
+    margin-left: 100px;
+}
+/*.meals-showcase{
+    list-style: none;
+    width:100%;
+}
+.meals-showcase li{
+    display:inline-block;
+    display:block;
+    
+    width:25%;
+}*/
+.photo{
+    width:100%;
+    margin:0;
+    height:250px;
+    overflow: hidden;
+    background-color: black;
+}
+.photo img{
+    opacity: 0.7;
+    width:100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.4s, opacity 0.5s;
+}
+.photo img:hover{
+    opacity: 1;
+transform: scale(1);
+}
+.column {
+    float: left;
+    width: 33.3333%;
+    padding: 0px;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.app-btn{
+    display:block;
+    padding-top: 20px;
+    float:left;
+    margin-right: 10px;
+}
+.tabletwo {
+    margin-left: 500px;
+    margin-right:100px;
+    margin-bottom: 50px;
+    
+}
+.num{
+    border: 2px solid rgba(10, 53, 10, 0.829);
+    color:rgba(10,53,10,0.829);
+    display: inline-block;
+    border-radius: 50%;
+    padding: 15px;
+    font-size: 25px;
+}
+.steps{
+    color: rgba(44,17,5,0.651);
+    padding: 20px;
+    padding-left: 30px;
+    font-size: 20px;
+}
+.ss{
+    background-color: rgba(0, 0, 0, 0.021); /*not working?????*/
+    margin-bottom: 50px;
+}
+.columntwo{
+    float: left;
+    width: 25%;
+    padding: 0px;
+   /* color:rgba(53, 53, 53, 0.021); not workingg??*/
+}
+.row{
+    color:rgb(87, 85, 85);
+}
+
+.city{
+    margin-bottom: 10px;
+}
+table{
+     margin-left: 200px;
+}
+.section-steps{
+    margin:0;
+    padding:0;
+    background-color:rgb(247, 247, 247)
+}
+.smallicon{
+    margin-right: 10px;
+    color: rgba(10,53,10,0.829);
+    font-size: 12px;
+}
+a:link,
+a:visited{
+    color: rgba(10, 53, 10, 0.829);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(10,53,10,0.829);
+    padding-bottom: 1px;
+    transition: border-bottom 0.2s color 0.2s;
+}
+a:hover,
+a:active{
+    color:gray;
+    border-bottom: 1px solid transparent;
+}
+
+.section-testmonials{
+    color:rgb(247, 247, 247);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.747),rgba(0, 0, 0, 0.771)) ,url(2.jpg);
+    background-size: cover;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-top: 40px;
+    height: 450px;
+    font-size: 20px;
+    background-attachment: fixed;
+}
+.title, blockquote,cite{
+    color:white;
+}
+blockquote:before{
+    content: "\201C";
+    font-size: 400%;
+    display: block;
+    position: absolute;
+    top:0;
+    left:-3;
+}
+blockquote{
+    padding:2%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+}
+cite img{
+    border-radius: 50%;
+    height:50px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.plan{
+    font-size: 150%;
+    height: 100px;
+    padding-right:0;
+    margin-left: 40px;
+    color:gray;
+    background-color: white;
+    height:430px;
+    
+}
+.section-plan{
+    background-color: rgb(243, 243, 243);
+    height:550px;
+}
+.plan div{
+    padding:15px;
+}
+.plan-price{
+    font-size: 170%;
+    margin-bottom: 10px;
+    color:rgba(14, 70, 14, 0.829)
+}
+.plan-price span{
+    font-size: 80%;
+    font-weight: 300;
+}
+.plan-price-meal{
+    font-size: 70%;
+}
+.plan ul{
+    list-style: none;
+}
+.plan ul li{
+    padding: 5px 0;
+}
+.sform{
+  
+    color:gray;
+}
+.contact-form{
+    width:60%;
+    margin:0 auto;
+}
+input[type=text],
+input[type=email],
+select,
+textarea{
+    width:400px;
+    padding: 3px;
+    border-radius: 3px;
+}
+textarea{
+    height:100px;
+}
+footer{
+    background-color: rgba(10, 10, 10, 0.644);
+}
+.footer-nav{
+    list-style: none ;
+    float: left;
+}
+.social-links{
+    list-style:none ;
+    float:right;
+    margin-left: 500px;
+}
+.footer-nav li,
+.social-links li{
+    display: inline-block;
+    margin-right:20px;
+    
+}
