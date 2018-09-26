@@ -8,14 +8,17 @@ header{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     padding-top: 0px;
+    padding-bottom: 15%;
     background-image:linear-gradient(rgba(0, 0, 0, 0.904) ,
     rgba(12, 12, 2, 0.651)), url(bk.jpg);
     background-size: cover;
-    height: 80vh;
+    height: auto;
     background-attachment: fixed;
 }
+
 .text-box{
     padding-top: 150px;
+    
 }
 h1{
     word-spacing: 4px;
@@ -79,13 +82,26 @@ input[type="submit"]
     border-bottom-color: rgba(165, 211, 165, 0.829);
     border-bottom: 2px solid;
 }
+
+/*sectionone*/
+
 .section-features{
-    margin-left: 50px;
-    margin-right:50px;
+   /* padding: 0%;
+    margin: 0%;*/
+   
+
+}
+.TableOne{
+    margin-left: 0%;
+    padding-left: 0%;
+    padding-right: 20%;
 }
 td{
     padding-top: 20px;
-    padding-right: 20px;
+ padding-right: 2%;
+ padding-left: 0%;
+ margin-left: 0%;
+
 }
 h2{
     margin-top: 20px;
@@ -107,14 +123,16 @@ h2:after{
 p{
     line-height: 130%;
     color: gray;
+    
     text-align: center;
     margin-bottom: 10px;
+    font-size: auto;
     
 }
 h3{
     word-spacing: 2px;
     letter-spacing: 2px;
-    text-align: center;
+    /*text-align: center;*/
     color:gray;
 }
 
@@ -122,7 +140,7 @@ h3{
     display:block;
     color: rgba(10, 53, 10, 0.829);
     font-size: 300%;
-    margin-left: 100px;
+   /* margin-left: 100px;*/
 }
 /*.meals-showcase{
     list-style: none;
@@ -137,7 +155,7 @@ h3{
 .photo{
     width:100%;
     margin:0;
-    height:250px;
+    height:auto;
     overflow: hidden;
     background-color: black;
 }
@@ -164,15 +182,14 @@ transform: scale(1);
   }
 .app-btn{
     display:block;
-    padding-top: 20px;
+    padding-top: 2%;
     float:left;
-    margin-right: 10px;
+    margin-right: 2%;
 }
 .tabletwo {
-    margin-left: 500px;
-    margin-right:100px;
-    margin-bottom: 50px;
-    
+    padding: auto;
+    margin: auto;
+   
 }
 .num{
     border: 2px solid rgba(10, 53, 10, 0.829);
@@ -184,9 +201,12 @@ transform: scale(1);
 }
 .steps{
     color: rgba(44,17,5,0.651);
-    padding: 20px;
-    padding-left: 30px;
-    font-size: 20px;
+    padding-top: 3%;
+    padding-right: 2%;
+    padding-left: 2%;
+    /*padding: 20px;*/
+    /*padding-left: 30px;*/
+    font-size: 120%;
 }
 .ss{
     background-color: rgba(0, 0, 0, 0.021); /*not working?????*/
@@ -206,7 +226,10 @@ transform: scale(1);
     margin-bottom: 10px;
 }
 table{
-     margin-left: 200px;
+     margin-left: 50%;
+}
+.TableOne{
+    padding-left: 20%
 }
 .section-steps{
     margin:0;
@@ -232,6 +255,21 @@ a:active{
     border-bottom: 1px solid transparent;
 }
 
+/*section cities*/
+.tableThree{
+    margin-left: 3%;
+    width:10%;
+    height:auto;
+    align-items: center;
+    text-align: center;
+}
+.td-one{
+    margin: 0%;
+    padding: 0%;
+}
+
+/*sectiontestmonials*/
+
 .section-testmonials{
     color:rgb(247, 247, 247);
     background-image:linear-gradient(rgba(0, 0, 0, 0.747),rgba(0, 0, 0, 0.771)) ,url(2.jpg);
@@ -239,7 +277,8 @@ a:active{
     padding-top: 10px;
     padding-bottom: 20px;
     margin-top: 40px;
-    height: 450px;
+    height: auto;
+    width: auto;
     font-size: 20px;
     background-attachment: fixed;
 }
@@ -266,19 +305,22 @@ cite img{
     vertical-align: middle;
     margin-right: 5px;
 }
+
+/*section plan*/
 .plan{
     font-size: 150%;
-    height: 100px;
-    padding-right:0;
-    margin-left: 40px;
+    padding-right:0%;
+    width:auto;
+   
     color:gray;
     background-color: white;
-    height:430px;
+    height:auto;
     
 }
 .section-plan{
     background-color: rgb(243, 243, 243);
-    height:550px;
+    height:auto;
+    padding-bottom: 5%;
 }
 .plan div{
     padding:15px;
@@ -313,7 +355,7 @@ input[type=text],
 input[type=email],
 select,
 textarea{
-    width:400px;
+    width:250%;
     padding: 3px;
     border-radius: 3px;
 }
@@ -322,6 +364,8 @@ textarea{
 }
 footer{
     background-color: rgba(10, 10, 10, 0.644);
+    height: auto;
+    width:auto;
 }
 .footer-nav{
     list-style: none ;
@@ -330,11 +374,11 @@ footer{
 .social-links{
     list-style:none ;
     float:right;
-    margin-left: 500px;
+    
 }
 .footer-nav li,
 .social-links li{
     display: inline-block;
-    margin-right:20px;
+    margin-right:0%;
     
 }
